@@ -5,7 +5,7 @@ import registerServiceWorker from './registerServiceWorker';
 
 const rootEl = document.getElementById('root');
 
-const render = (Component) => {
+const render = Component => {
   ReactDOM.render(<Component />, rootEl);
 };
 
