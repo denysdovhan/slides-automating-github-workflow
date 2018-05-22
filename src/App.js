@@ -47,13 +47,18 @@ const theme = createTheme(
 class App extends React.Component {
   render() {
     return (
-      <Deck theme={theme} transition={['fade']} transitionDuration={500}>
+      <Deck
+        theme={theme}
+        transition={['fade']}
+        transitionDuration={500}
+        progress="none"
+      >
         <Slide bgImage={yglf} bgDarken={0.5}>
           <Heading textColor="white">Hello, YGLF!</Heading>
         </Slide>
 
         <Slide>
-          <Link href="https://twitter.com/denysdovhan" target="_blank">
+          <Link href="//twitter.com/denysdovhan" target="_blank">
             <Heading>@denysdovhan</Heading>
             <Text textColor="graydark">Denys Dovhan</Text>
           </Link>
@@ -82,16 +87,32 @@ class App extends React.Component {
         <Slide>
           <Heading>GitHub Apps</Heading>
           <Text textColor="graydark">
-            <Link textColor="graydark" href="" target="_blank">
+            <Link
+              textColor="graydark"
+              href="//github.com/marketplace/greenkeeper"
+              target="_blank"
+            >
               Greenkeeper
             </Link>,{' '}
-            <Link textColor="graydark" href="" target="_blank">
+            <Link
+              textColor="graydark"
+              href="//github.com/marketplace/sentry"
+              target="_blank"
+            >
               Sentry
             </Link>,{' '}
-            <Link textColor="graydark" href="" target="_blank">
+            <Link
+              textColor="graydark"
+              href="//github.com/marketplace/zenhub"
+              target="_blank"
+            >
               ZenHub
             </Link>,{' '}
-            <Link textColor="graydark" href="" target="_blank">
+            <Link
+              textColor="graydark"
+              href="//github.com/marketplace/codecov"
+              target="_blank"
+            >
               Codecov
             </Link>, etc
           </Text>
