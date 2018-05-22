@@ -309,7 +309,7 @@ module.exports = robot => {
           <Text margin="1rem auto" lineHeight={1.2}>
             24-25 May 2018
           </Text>
-          <Link href="#">
+          <Link href="//denysdovhan.com/slides-writing-bots-for-github">
             <Text textSize="2rem">
               denysdovhan.com/slides-writing-bots-for-github
             </Text>
