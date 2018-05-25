@@ -152,14 +152,14 @@ class App extends React.Component {
         <Slide>
           <Heading>It's too complicated</Heading>
           <Text textColor="graydark">
-            Validating and receiving web hooks might be an overkill for simple
+            Validating and receiving webhooks might be an overkill for simple
             tasks
           </Text>
         </Slide>
 
         <Slide bgColor="black">
           <BlockQuote>
-            <Quote>We undestand you!</Quote>
+            <Quote>We understand you!</Quote>
 
             <Cite>People from GitHub</Cite>
           </BlockQuote>
@@ -210,7 +210,7 @@ class App extends React.Component {
             textSize="2rem"
             source={`
 # Scaffold a robot (like you do with CRA)
-npx create-probot-app my-fist-bot
+npx create-probot-app my-first-bot
             `}
           />
         </Slide>
@@ -220,6 +220,8 @@ npx create-probot-app my-fist-bot
             lang="javascript"
             textSize="2rem"
             source={`
+// index.js
+
 module.exports = robot => {
   // robot is an Express app
   // your code goes here
@@ -233,6 +235,8 @@ module.exports = robot => {
             lang="javascript"
             textSize="1.5rem"
             source={`
+// index.js
+
 module.exports = robot => {
 
   robot.on('issues.opened', async context => {
@@ -257,7 +261,7 @@ module.exports = robot => {
         <Slide>
           <Heading>People use probots</Heading>
           <Text textColor="graydark">
-            They help them automate their routine tasks
+            They help to automate their routine tasks
           </Text>
         </Slide>
 
