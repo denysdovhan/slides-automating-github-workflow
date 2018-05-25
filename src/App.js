@@ -309,6 +309,13 @@ module.exports = robot => {
         </Slide>
 
         <Slide>
+          <Heading>Try it!</Heading>
+          <Text textColor="graydark">
+            Probot can help you automate your github workflow.
+          </Text>
+        </Slide>
+
+        <Slide>
           <Heading>Thanks!</Heading>
           <Text margin="1rem auto" lineHeight={1.2}>
             24-25 May 2018
